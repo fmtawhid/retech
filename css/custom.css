@@ -49,7 +49,7 @@
 	--primary-color				: #121212;
 	--secondary-color			: #F5F7F8;
 	--text-color				: #666666;
-	--accent-color				: #FCDE70;
+	--accent-color				: #0c1c48;
 	--accent-secondary-color	: #1B4B36;
 	--white-color				: #FFFFFF;
 	--divider-color				: #66666624;
@@ -224,7 +224,7 @@ body{
     font-weight: 500;
     line-height: 1em;
     text-transform: capitalize;
-    color: var(--accent-secondary-color);
+    color: var(--white-color);
     border: none;
     padding: 17px 54px 17px 20px;
     transition: all 0.5s ease-in-out;
@@ -1192,6 +1192,7 @@ header.main-header .header-sticky.active{
 	font-size: 40px;
 	font-weight: 600;
 	margin-bottom: 40px;
+	color: var(--white-color);
 }
 
 .our-expert-box .btn-default.btn-highlighted::after{
@@ -1216,7 +1217,7 @@ header.main-header .header-sticky.active{
 .about-experience-box{
 	width: calc(60% - 15px);
 	height: 100%;
-	border: 1px solid var(--divider-color);
+	border: 1px solid var(--white-color);
 	border-radius: 30px;
 	padding: 30px;
 }
